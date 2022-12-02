@@ -1,0 +1,159 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+body {
+    padding: 0;
+    margin: 0;
+	font-family: "Ubuntu", serif;
+    }
+.navbar {
+    background: #a1a4a8;
+    position: sticky;
+    top: 0;
+    width: 100%;
+	height:min-content;
+	z-index: 10;
+	line-height: 0.8;
+	font-family: "Oswald", serif;
+	border-style: solid;
+	border-color: #919294;
+	border-width: 3px;
+}
+.nav-link,
+.navbar-brand {
+    color: #000;
+    cursor: pointer;
+	font-size: 1.4vw;
+	font-weight: bold;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.navbar-brand:hover {
+    color: white;
+}
+.nav-link:hover {
+    color: white;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.description {
+    background-color:#dccddb;
+}
+.container-intro {
+	padding: 30px;
+	left:auto;
+	position:relative;
+	text-align: left;
+}
+.container-video {
+	background-color: #a1a4a8;
+	margin: 1rem;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 12px;
+	border-style: solid;
+	border-color: #919294;
+	border-width: 3px;
+}
+.container-picture {
+	padding:15%;
+}
+.description h3 {
+	color: #000000;
+	font-size: 1.5vw;
+	text-align: center;
+	font-weight: bold;
+}
+.description p {
+	color: #000000;
+	line-height: 1.5;
+	font-size: 1.1vw;
+}
+.description ul {
+	color: #000000;
+	line-height: 1.5;
+	font-size: 1.1vw;
+	font-style: italic;
+}
+#intro-buttom {
+	width: 60%;
+	background-color: rgb(140, 152, 154);
+	border-color: rgba(140, 152, 154, 0.6);
+	border-width: 2px;
+	color: #000;
+	font-style: normal;
+	font-weight: bold;
+	border-radius: 0.25rem;
+	line-height:normal;
+	white-space: nowrap;
+	text-decoration: none;
+	padding: 0.25rem 0.5rem;
+	margin: 0.25rem;
+	cursor: pointer;
+}
+#intro-buttom:hover {
+	background-color: rgba(186, 208, 212, 0.5);
+	}
+.container-projects {
+	background: #a7c3ac;
+	padding: 1% 3% 15% 3%;
+	text-align: center;
+}
+.container-projects h5 {
+	color: black;
+	font-size: 1.6vw;
+	text-align: center;
+	font-weight: bold;
+}
+container-projects p {
+	line-height: 1.3;
+	text-align: left;
+	font-size: 1.2vw;
+	color: black;
+}
+.card{
+	padding: 5%;
+	width: 100%;
+	height:100%;
+	background-color:rgb(115, 139, 115);
+	border-radius: 12px;
+}
+	
+.container-projects .btn-primary {
+	width: 90%;
+	background-color: rgba(199, 222, 204, 0.4);
+	border-color: rgb(0, 0, 0);
+	border-width: 2px;
+	color: #000;
+	font-weight: bold;
+	border-radius: 0.25rem;
+	font-size: 1.4vw;
+	line-height: 2;
+	white-space: nowrap;
+	text-decoration: none;
+	padding: 0.25rem 0.5rem;
+	margin: 0.25rem;
+	cursor: pointer;
+}
+.container-projects .btn-primary:hover {
+	background-color: rgba(235, 247, 250, 0.8);
+}
+.page-footer {
+	position: sticky;
+    bottom: 0;
+    width: 100%;
+	height:min-content;
+	z-index: 10;
+    background-color: #222;
+    color: #ccc;
+}
+.footer-copyright {
+    color: #ccc;
+	font-size: 1.3vw;
+}
+.shadow {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
