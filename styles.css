@@ -44,6 +44,12 @@ body {
 	left:auto;
 	position:relative;
 	text-align: left;
+}.container-project {
+	background-color: #9daa80;
+	padding: 30px;
+	left:auto;
+	position:relative;
+	text-align: left;
 }
 .container-video {
 	background-color: #a1a4a8;
